@@ -1,0 +1,8 @@
+name "RefSkinMeshMG"
+version 1.03
+
+copy SEO_RefSkinMeshMG.ms to $userScripts\SEO_RefSkinMeshMG
+drop "SEO_RefSkinMeshMG.ms"
+run "SEO_RefSkinMeshMG.ms"
+
+clear temp on reset 
